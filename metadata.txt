@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Get view bounds
+qgisMinimumVersion=2.0
+description=Copies the view extent to system clipboard
+version=0.1
+author=Jörgen Rosberg
+email=rosberg.jorgen@gmail.com
+
+about=Copies the view extent (bounds) in the current projection units to the clipboard as text. This can then be pasted or retrieved by some other application to mimic the same view. The format of the clipboard content can easily be seen by pasting in any text editor.
+
+tracker=https://github.com/JorgRos/qgis-plugin-get-extent/issues
+repository=https://github.com/JorgRos/qgis-plugin-get-extent
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=https://github.com/JorgRos/qgis-plugin-get-extent
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
